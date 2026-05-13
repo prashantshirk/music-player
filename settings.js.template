@@ -1,10 +1,10 @@
 "use strict";
 
-window.SERVER_URL = "${SERVER_URL}";
+window.SERVER_URL = "https://music.prashantshirke.me";
 window.REMOTE_URL = "${REMOTE_URL}";
-window.SERVER_NAME = "${SERVER_NAME}";
-window.SERVER_TYPE = "${SERVER_TYPE}";
-window.SERVER_LOCK = "${SERVER_LOCK}";
+window.SERVER_NAME = "Prashant's Music";
+window.SERVER_TYPE = "navidrome";
+window.SERVER_LOCK = "true";
 window.LEGACY_AUTHENTICATION = "${LEGACY_AUTHENTICATION}";
 window.ANALYTICS_DISABLED = "${ANALYTICS_DISABLED}";
 
