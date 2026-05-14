@@ -1079,7 +1079,7 @@ const platformDefaultWindowBarStyle: Platform = getPlatformDefaultWindowBarStyle
 
 const initialState: SettingsState = {
     autoDJ: {
-        enabled: false,
+        enabled: true,
         itemCount: 5,
         timing: 1,
     },
