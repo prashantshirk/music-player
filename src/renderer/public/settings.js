@@ -1,11 +1,10 @@
 "use strict";
-
 window.SERVER_URL = "https://music.prashantshirke.me";
-window.REMOTE_URL = "";
-window.SERVER_NAME = "Prashant's Music";
+window.SERVER_NAME = "Prashant Music";
 window.SERVER_TYPE = "navidrome";
 window.SERVER_LOCK = "true";
-window.LEGACY_AUTHENTICATION = "";
-window.ANALYTICS_DISABLED = "true";
-
+window.FS_AUTO_DJ_ENABLED = "true";
+window.FS_AUTO_DJ_ITEM_COUNT = "10";
+window.FS_AUTO_DJ_TIMING = "1";
 window.FS_PLAYBACK_WEB_AUDIO = "false";
+window.ANALYTICS_DISABLED = "true";
