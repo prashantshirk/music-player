@@ -312,7 +312,7 @@ const initialState: State = {
         speed: 1,
         status: PlayerStatus.PAUSED,
         transitionType: PlayerStyle.GAPLESS,
-        volume: 30,
+        volume: 100,
     },
     queue: {
         default: [],
@@ -1563,7 +1563,7 @@ export const usePlayerStoreBase = createWithEqualityFn<PlayerState>()(
 
                 return persistedState as Partial<PlayerState>;
             },
-            name: 'player-store',
+            name: 'player-store-v2',
             onRehydrateStorage: () => () => {
                 usePlayerStoreBase.setState({ hydrated: true });
             },

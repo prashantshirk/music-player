@@ -1080,7 +1080,7 @@ const platformDefaultWindowBarStyle: Platform = getPlatformDefaultWindowBarStyle
 const initialState: SettingsState = {
     autoDJ: {
         enabled: true,
-        itemCount: 5,
+        itemCount: 10,
         timing: 1,
     },
     css: {
@@ -2077,7 +2077,7 @@ export const useSettingsStore = createWithEqualityFn<SettingsSlice>()(
                     ...initialStateWithEnv,
                 })),
             ),
-            { name: 'store_settings' },
+            { name: 'store_settings-v2' },
         ),
         {
             merge: mergeOverridingColumns,
